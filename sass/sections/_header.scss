@@ -1,6 +1,8 @@
 .header{
     &__top {
-        background: url("../images/bg-photo.jpg") center / cover no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
         height: 100vh;
         padding: 40px;
     }

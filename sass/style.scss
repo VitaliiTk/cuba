@@ -13,12 +13,65 @@ a {
 }
 
 body {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Lato';
     font-weight: 400;
     font-size: 16px;
     line-height: 28px;
     color: $textColor;
 }
 
+.container {
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.container-content {
+    max-width: 930px;
+    margin: 0 auto;
+}
+
+.section-line {
+    border-bottom: 1px solid rgba(#D0D4D8, .5);
+}
+
+.title {
+    font-family: 'Georgia';
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    color: #4E5665;
+}
+
+.pageUp {
+    border: none;
+    width: 40px;
+    height: 40px;
+    background-color: #ecb84c;
+    border-radius: 50%;
+    position: fixed;
+    left: 62px;
+    bottom: 62px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .5s;
+    opacity: 0;
+    img {
+        width: 70%;
+    }
+}
+
+.show {
+    opacity: 1;
+}
+
+
 @import "sections/header";
 @import "menu";
+@import "sections/reason";
+@import "sections/about";
+@import "sections/photo";
+@import "sections/footer";
+@import "media"

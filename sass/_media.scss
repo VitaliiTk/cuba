@@ -1,0 +1,27 @@
+@media (max-width: 700px) {
+    .header__title {
+        font-size: 120px;
+        line-height: 150px;
+    }
+    .header__text {
+        font-size: 20px;
+    }
+    .menu {
+        position: relative;
+        &__btn {
+            display: block;
+            width: 40px;
+            position: absolute;
+            right: 40px;
+            span {
+                display: block;
+                height: 4px;
+                background-color: #FFD600;
+                margin: 8px 0;
+            }
+        }
+        &__list {
+            display: none;
+        }
+    }
+}
