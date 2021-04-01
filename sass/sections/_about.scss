@@ -17,7 +17,6 @@
         &:nth-child(even) .about__box {
             margin-left: auto;
         }
-        
     }
     &__box {
         padding: 33px 40px 36px;
@@ -77,6 +76,9 @@
     &__images-box {
         padding-top: 73px;
         position: relative;
+        img {
+            max-width: 100%;
+        }
     }
     &__dot {
         width: 32px;

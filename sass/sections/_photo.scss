@@ -47,6 +47,28 @@
         & .slick-next {
             right: -20px;
         }
+        .slick-dots {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            & .slick-active button{
+                width: 10px;
+                height: 10px;
+                border: 1px solid #ECB84C;
+                background: none;
+            }
+            button {
+                font-size: 0;
+                padding: 0;
+                margin: 0;
+                border: none;
+                width: 6px;
+                height: 6px;
+                background-color: #ECB84C;
+                border-radius: 50%;
+                margin: 0 5px;
+            }
+        }
     }
 }
 
